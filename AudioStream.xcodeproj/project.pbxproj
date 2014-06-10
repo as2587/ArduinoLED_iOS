@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C81D68CC1946A54200FF691D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81D68CB1946A54200FF691D /* Accelerate.framework */; };
+		C8A6895D193A59B700E16D00 /* JaggerBomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8A6895C193A59B700E16D00 /* JaggerBomb.mp3 */; };
+		C8A68962193A72A200E16D00 /* Kelsey.m4p in Resources */ = {isa = PBXBuildFile; fileRef = C8A68960193A6F7000E16D00 /* Kelsey.m4p */; };
+		C8A68963193A72A200E16D00 /* Lost.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C8A6895F193A6F6000E16D00 /* Lost.m4a */; };
+		C8A68964193A72A200E16D00 /* Timelines.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C8A68961193A6F7A00E16D00 /* Timelines.m4a */; };
+		C8A68965193A72A200E16D00 /* Yellow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C8A6895E193A6F4300E16D00 /* Yellow.m4a */; };
 		C8CD1B071936C8760054AA25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CD1B061936C8760054AA25 /* Foundation.framework */; };
 		C8CD1B091936C8760054AA25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CD1B081936C8760054AA25 /* CoreGraphics.framework */; };
 		C8CD1B0B1936C8760054AA25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CD1B0A1936C8760054AA25 /* UIKit.framework */; };
@@ -21,6 +27,9 @@
 		C8CD1B281936C8760054AA25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CD1B0A1936C8760054AA25 /* UIKit.framework */; };
 		C8CD1B301936C8760054AA25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8CD1B2E1936C8760054AA25 /* InfoPlist.strings */; };
 		C8CD1B321936C8760054AA25 /* AudioStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CD1B311936C8760054AA25 /* AudioStreamTests.m */; };
+		C8CD1B3C1936C8A70054AA25 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CD1B3B1936C8A70054AA25 /* MediaPlayer.framework */; };
+		C8CD1B3E1936C8AF0054AA25 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CD1B3D1936C8AF0054AA25 /* AVFoundation.framework */; };
+		C8CD1B411936D2ED0054AA25 /* TSLibraryImport.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CD1B401936D2ED0054AA25 /* TSLibraryImport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C81D68CB1946A54200FF691D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C8A6895C193A59B700E16D00 /* JaggerBomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JaggerBomb.mp3; sourceTree = "<group>"; };
+		C8A6895E193A6F4300E16D00 /* Yellow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yellow.m4a; sourceTree = "<group>"; };
+		C8A6895F193A6F6000E16D00 /* Lost.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lost.m4a; sourceTree = "<group>"; };
+		C8A68960193A6F7000E16D00 /* Kelsey.m4p */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kelsey.m4p; sourceTree = "<group>"; };
+		C8A68961193A6F7A00E16D00 /* Timelines.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Timelines.m4a; sourceTree = "<group>"; };
 		C8CD1B031936C8760054AA25 /* AudioStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8CD1B061936C8760054AA25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8CD1B081936C8760054AA25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +68,10 @@
 		C8CD1B2D1936C8760054AA25 /* AudioStreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioStreamTests-Info.plist"; sourceTree = "<group>"; };
 		C8CD1B2F1936C8760054AA25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C8CD1B311936C8760054AA25 /* AudioStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioStreamTests.m; sourceTree = "<group>"; };
+		C8CD1B3B1936C8A70054AA25 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C8CD1B3D1936C8AF0054AA25 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C8CD1B3F1936D2ED0054AA25 /* TSLibraryImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLibraryImport.h; sourceTree = "<group>"; };
+		C8CD1B401936D2ED0054AA25 /* TSLibraryImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLibraryImport.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81D68CC1946A54200FF691D /* Accelerate.framework in Frameworks */,
+				C8CD1B3E1936C8AF0054AA25 /* AVFoundation.framework in Frameworks */,
+				C8CD1B3C1936C8A70054AA25 /* MediaPlayer.framework in Frameworks */,
 				C8CD1B091936C8760054AA25 /* CoreGraphics.framework in Frameworks */,
 				C8CD1B0B1936C8760054AA25 /* UIKit.framework in Frameworks */,
 				C8CD1B071936C8760054AA25 /* Foundation.framework in Frameworks */,
@@ -101,6 +123,9 @@
 		C8CD1B051936C8760054AA25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C81D68CB1946A54200FF691D /* Accelerate.framework */,
+				C8CD1B3D1936C8AF0054AA25 /* AVFoundation.framework */,
+				C8CD1B3B1936C8A70054AA25 /* MediaPlayer.framework */,
 				C8CD1B061936C8760054AA25 /* Foundation.framework */,
 				C8CD1B081936C8760054AA25 /* CoreGraphics.framework */,
 				C8CD1B0A1936C8760054AA25 /* UIKit.framework */,
@@ -112,6 +137,13 @@
 		C8CD1B0C1936C8760054AA25 /* AudioStream */ = {
 			isa = PBXGroup;
 			children = (
+				C8A6895C193A59B700E16D00 /* JaggerBomb.mp3 */,
+				C8A68960193A6F7000E16D00 /* Kelsey.m4p */,
+				C8A6895F193A6F6000E16D00 /* Lost.m4a */,
+				C8A68961193A6F7A00E16D00 /* Timelines.m4a */,
+				C8A6895E193A6F4300E16D00 /* Yellow.m4a */,
+				C8CD1B3F1936D2ED0054AA25 /* TSLibraryImport.h */,
+				C8CD1B401936D2ED0054AA25 /* TSLibraryImport.m */,
 				C8CD1B151936C8760054AA25 /* sl_mpAppDelegate.h */,
 				C8CD1B161936C8760054AA25 /* sl_mpAppDelegate.m */,
 				C8CD1B181936C8760054AA25 /* Main.storyboard */,
@@ -230,6 +262,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8CD1B1F1936C8760054AA25 /* Images.xcassets in Resources */,
+				C8A68962193A72A200E16D00 /* Kelsey.m4p in Resources */,
+				C8A68963193A72A200E16D00 /* Lost.m4a in Resources */,
+				C8A68964193A72A200E16D00 /* Timelines.m4a in Resources */,
+				C8A68965193A72A200E16D00 /* Yellow.m4a in Resources */,
+				C8A6895D193A59B700E16D00 /* JaggerBomb.mp3 in Resources */,
 				C8CD1B111936C8760054AA25 /* InfoPlist.strings in Resources */,
 				C8CD1B1A1936C8760054AA25 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +290,7 @@
 				C8CD1B171936C8760054AA25 /* sl_mpAppDelegate.m in Sources */,
 				C8CD1B131936C8760054AA25 /* main.m in Sources */,
 				C8CD1B1D1936C8760054AA25 /* sl_mpViewController.m in Sources */,
+				C8CD1B411936D2ED0054AA25 /* TSLibraryImport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +499,7 @@
 				C8CD1B371936C8760054AA25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8CD1B381936C8760054AA25 /* Build configuration list for PBXNativeTarget "AudioStreamTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +508,7 @@
 				C8CD1B3A1936C8760054AA25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
